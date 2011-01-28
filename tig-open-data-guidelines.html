@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Ten Open Data Guidelines -- Transparency International</title>
+
+</head>
+
+<body>
+<h1>Ten Open Data Guidelines -- Transparency International Georgia</h1>
+<p>This document is designed as a guide to help agency heads, IT managers, and web developers create open data websites.However, it is not meant to cover all situations—“data” is a broad term, and some data may require disclosure methods not discussed here in order to be fully open. In addition, there are other issues, such as accessibility for the disabled, which are not discussed here but which are key components of any good website.</p>
+
+<p>Public data is data that is not restricted from disclosure due to privacy, security, or other valid concerns. These guidelines do not address in detail what information should be considered public, but in general, government data should be assumed to be public unless there is a specific reason to restrict its disclosure that is legitimate under international law, and the decision to withhold is based on the public interest. If data must be legitimately withheld, it should be redacted, the redaction labeled clearly, and the remainder of the data set released along with an explanation of the reasons for any redactions.</p>
+
+<p>
+Open data is:
+</p>
+<ol><li><dl><dt>Complete</dt><dd>All data comprising a particular public data set should be published, including non-digital archival data and data used to generate aggregate or derived figures.
+<ul><li>For data sets spanning many years, digitizing paper-based archives is often a difficult task. Ideally, this data should be made available, but given limited resources, the focus should be on creating systems that make collection and release of public data in a digital format efficient going forward. If possible, new digital systems should be designed so that non-digital archival data can be added as it is digitized.</li>
+
+<li>Aggregate and derived figures should be distributed along with the source data used to create them and explanations of the methods used to do so. For instance, an inflation figure should include the prices of the basket of goods used to measure inflation.</li></ul></dd></dl></li>
+
+<li><dl><dt>Primary</dt><dd>Data should be collected at the source, and should be published with the level of granularity with which it was collected.
+<ul><li>Data may not always be in a usable form when it is collected (e.g. sensor data). In these cases, post-collection processing may be performed. This processing, however, should result in data in a format that reflects the full capabilities and granularity of the original collection mechanism. Data should never be lost.</li></ul></dd></dl></li>
+
+<li><dl><dt>Timely</dt><dd>Data is made available as rapidly as possible in order to maximize its value to the public.
+<ul><li>There is no time period that is appropriate for all types of data, but in many cases, a well-designed system will enable data to be published in real-time, or nearly so. Thus, information should be published as soon as possible.</li>
+<li>Updates should be easy to locate from within the larger data set, through mechanisms such as RSS feeds, search functions that can filter by date, and archives which contain snapshots of the data set taken at regular intervals. A successful site will probably use some combination of these techniques.</li></ul></dd></dl></li>
+
+<li><dl><dt>Accessible</dt><dd>Data is available to as many users as possible, for the widest range of purposes possible.
+<ul><li>The data should be easy to share digitally. Every page and document published should be assigned a unique and easily obtained URI (URL) that can be distributed via email and social websites. Web development techniques such as cookies, Flash, and AJAX/AHAH should not be used to obscure the location of data or make it difficult to share direct links.</li>
+<li>URIs should be in a human-friendly format, e.g. "www.domain.gov.ge/data/ministry/justice/complaints/2009/10/11/complaint.html" not "www.domain.gov.ge/data.php?lang=GEO&amp;search_code=15&amp;search_str=10,11,2009&amp;type=4&amp;min=01A" .</li>
+<li>Full access to data should never require registration or payment.</li>
+<li>Bulk downloads should be made available via protocols such as FTP or rsync.</li>
+<li>Ideally, a well-documented API will make automated access to data possible.</li></ul></dd></dl></li>
+
+<li><dl><dt>Machine-readable</dt><dd>Data is stored using a format and structure that allow automated processing.
+<ul><li>Machine readability should not replace human readability; both formats should be presented (e.g., a transcript of a speech should be provided along with a recording of it).</li>
+<li>Data should never be made available only in the form of scanned images. Scanned images may be the best way of presenting certain documents, such as documents bearing a seal or signature, but they should always be accompanied by a machine-readable representation of the document's other content.</li>
+<li>Data should never be stored in non-Unicode fonts such as AcadNusx or LitNusx.</li>
+<li>Data should be presented in an easily-processed format, such as CSV, JSON, or XML.</li>
+<li>In all cases, the meaning of each field in the data should be well-documented and this documentation included along with the data.</li></ul></dd></dl></li>
+
+
+<li><dl><dt>Non-proprietary</dt><dd>Data is available in an open format over which no entity has exclusive control, to ensure that computer programs capable of processing the data will always be available.
+<ul><li>An open format is one which is not subject to intellectual property controls in any country, and for which documents defining the format's structure are freely available. HTML and XML are examples of open formats.</li>
+<li>Simple formats and formats supported by numerous programs should be preferred. For example, formats such as XML and JSON should be preferred over formats such as PDF or OOXML (OOXML is commonly known as the MS Office .docx, .pptx, and .xlsx formats).</li></ul></dd></dl></li>
+
+<li><dl><dt>License-free</dt><dd>Data is not subject to any intellectual property protections, such as copyright or trademark, and this status is easily verifiable.
+<ul><li>Data should be made free for all types of use, including commercial use, without restriction.</li>
+<li>Even if the law is clear that public government data may be used freely, a notice to this effect should be included with every item of data that is published.</li></ul></dd></dl></li>
+
+<li><dl><dt>Reviewable</dt><dd>Every public or private body releasing data should designate a person to respond to questions and complaints about the data, and this person's contact information should be included with the data.</dd></dl></li>
+
+<li><dl><dt>Discoverable</dt><dd>Data must be able to be found by those who are looking for it; it must be included in appropriate data catalogues, and data websites should be accessible to search engines.
+<ul><li>Ideally, all government agencies should adopt a unified means for displaying their data online, so that users can rapidly locate the data produced by any agency from its website.</li>
+<li>Agencies should ensure that the listings at government data portal websites are accurate and up-to-date.</li>
+<li>Agencies should generate comprehensive sitemaps and submit them to all major search engines.</li></ul></dd></dl></li>
+
+<li><dl><dt>Permanent</dt><dd>As data ages, it should be archived in ways that satisfy the above criteria.</dd></dl></li>
+
+</ol>
+<p>These guidelines were adapted from guidelines published by the Sunlight Foundation, Access-Info Europe, OpenGovData.org, and others. This document and its contents are Creative-Commons licensed and may be freely reused, modified, and redistributed. Any omissions from or additions to the text of these guidelines should be attributed to their authors and not Transparency International Georgia or Transparency International.</p>
+<div>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Ten Open Data Guidelines</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://transparency.ge" property="cc:attributionName" rel="cc:attributionURL">Transparency International Georgia</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://transparency.ge/en/ten-open-data-guidelines" rel="dct:source">transparency.ge</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://transparency.ge/en/ten-open-data-guidelines" rel="cc:morePermissions">http://transparency.ge/en/ten-open-data-guidelines</a>.</div>
+<p>This page last modified on: <span class="date">28 January, 2011</span></p>
+</body>
+
+</html>
