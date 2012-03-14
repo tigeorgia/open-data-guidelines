@@ -42,8 +42,8 @@ Open data is:
     - An open format is one which is not subject to intellectual property controls in any country, and for which documents defining the format's structure are freely available. HTML and XML are examples of open formats.
     - Simple formats and formats supported by numerous programs should be preferred. For example, formats such as XML and JSON should be preferred over formats such as PDF or OOXML (OOXML is commonly known as the MS Office .docx, .pptx, and .xlsx formats).
 
-7. ##License-free
-    Data is not subject to any intellectual property protections, such as copyright or trademark, and this status is easily verifiable.
+7. ##Freely usable
+    Intellectual property protections, such as copyright or trademark, are not used to restrict potential users or uses of the data.
     - Data should be made free for all types of use, including commercial use, without restriction.
     - Even if the law is clear that public government data may be used freely, a notice to this effect should be included with every item of data that is published.
 
