@@ -1,4 +1,4 @@
-Ten Open Data Guidelines
+Ten Open Data Guidelines - Transparency International Georgia
 ============
 
 This document is designed as a guide to help agency heads, IT managers, and web developers create open data websites. However, it is not meant to cover all situations&#8212;&#8220;data&#8221; is a broad term, and some data may require disclosure methods not discussed here in order to be fully open. In addition, there are other issues, such as accessibility for the disabled, which are not discussed here but which are key components of any good website.
@@ -61,4 +61,9 @@ Open data is:
 
 These guidelines were adapted from guidelines published by the Sunlight Foundation, Access-Info Europe, OpenGovData.org, and others. This document and its contents are Creative-Commons licensed and may be freely reused, modified, and redistributed. Any omissions from or additions to the text of these guidelines should be attributed to their authors and not Transparency International Georgia or Transparency International.
 
+<div>
+<a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Ten Open Data Guidelines</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://transparency.ge" property="cc:attributionName" rel="cc:attributionURL">Transparency International Georgia</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://transparency.ge/en/ten-open-data-guidelines" rel="dct:source">transparency.ge</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://transparency.ge/en/ten-open-data-guidelines" rel="cc:morePermissions">http://transparency.ge/en/ten-open-data-guidelines</a>.</div>
 
+The contact person for this document is [Derek Dohler](mailto:derek@transparency.ge).
+
+This page last modified on: 14 March, 2012
