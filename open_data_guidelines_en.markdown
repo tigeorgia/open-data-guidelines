@@ -1,0 +1,64 @@
+Ten Open Data Guidelines
+============
+
+This document is designed as a guide to help agency heads, IT managers, and web developers create open data websites. However, it is not meant to cover all situations&#8212;&#8220;data&#8221; is a broad term, and some data may require disclosure methods not discussed here in order to be fully open. In addition, there are other issues, such as accessibility for the disabled, which are not discussed here but which are key components of any good website.
+
+Public data is data that is not restricted from disclosure due to privacy, security, or other valid concerns. These guidelines do not address in detail what information should be considered public, but in general, government data should be assumed to be public unless there is a specific reason to restrict its disclosure that is legitimate under international law, and the decision to withhold is based on the public interest. If data must be legitimately withheld, it should be redacted, the redaction labeled clearly, and the remainder of the data set released along with an explanation of the reasons for any redactions.
+
+Open data is:
+
+1. ##Complete
+    All data comprising a particular public data set should be published, including non-digital archival data and data used to generate aggregate or derived figures.
+    - For data sets spanning many years, digitizing paper-based archives is often a difficult task. Ideally, this data should be made available, but given limited resources, the focus should be on creating systems that make collection and release of public data in a digital format efficient going forward. If possible, new digital systems should be designed so that non-digital archival data can be added as it is digitized.
+    - Aggregate and derived figures should be distributed along with the source data used to create them and explanations of the methods used to do so. For instance, an inflation figure should include the prices of the basket of goods used to measure inflation.
+
+2. ##Primary
+    Data should be collected at the source, and should be published with the level of granularity with which it was collected.
+    - Data may not always be in a usable form when it is collected (e.g. sensor data). In these cases, post-collection processing may be performed. This processing, however, should result in data in a format that reflects the full capabilities and granularity of the original collection mechanism. Data should never be lost.
+
+3. ##Timely
+    ata is made available as rapidly as possible in order to maximize its value to the public.
+    - There is no time period that is appropriate for all types of data, but in many cases, a well-designed system will enable data to be published in real-time, or nearly so. Thus, information should be published as soon as possible.
+    - Updates should be easy to locate from within the larger data set, through mechanisms such as RSS feeds, search functions that can filter by date, and archives which contain snapshots of the data set taken at regular intervals. A successful site will probably use some combination of these techniques.
+
+4. ##Accessible
+    Data is available to as many users as possible, for the widest range of purposes possible.
+	- The data should be easy to share digitally. Every page and document published should be assigned a unique and easily obtained URI (URL) that can be distributed via email and social websites. Web development techniques such as cookies, Flash, and AJAX/AHAH should not be used to obscure the location of data or make it difficult to share direct links.
+    - URIs should be in a human-friendly format, e.g. &quot;www.domain.gov.ge/data/ministry/justice/complaints/2009/10/11/complaint.html&quot; not &quot;www.domain.gov.ge/data.php?lang=GEO&search_code=15&search_str=10,11,2009&type=4&min=01A&quot; .
+    - Full access to data should never require registration or payment.
+    - Bulk downloads should be made available via protocols such as FTP or rsync.
+    - Ideally, a well-documented API will make automated access to data possible.
+
+5. ##Machine-readable
+    Data is stored using a format and structure that allow automated processing.
+    - Machine readability should not replace human readability; both formats should be presented (e.g., a transcript of a speech should be provided along with a recording of it).
+    - Data should never be made available only in the form of scanned images. Scanned images may be the best way of presenting certain documents, such as documents bearing a seal or signature, but they should always be accompanied by a machine-readable representation of the document's other content.
+    - Data should never be stored in non-Unicode fonts such as AcadNusx or LitNusx.
+    - Data should be presented in an easily-processed format, such as CSV, JSON, or XML.
+    - In all cases, the meaning of each field in the data should be well-documented and this documentation included along with the data.
+
+6. ##Non-proprietary
+    Data is available in an open format over which no entity has exclusive control, to ensure that computer programs capable of processing the data will always be available.
+    - An open format is one which is not subject to intellectual property controls in any country, and for which documents defining the format's structure are freely available. HTML and XML are examples of open formats.
+    - Simple formats and formats supported by numerous programs should be preferred. For example, formats such as XML and JSON should be preferred over formats such as PDF or OOXML (OOXML is commonly known as the MS Office .docx, .pptx, and .xlsx formats).
+
+7. ##License-free
+    Data is not subject to any intellectual property protections, such as copyright or trademark, and this status is easily verifiable.
+    - Data should be made free for all types of use, including commercial use, without restriction.
+    - Even if the law is clear that public government data may be used freely, a notice to this effect should be included with every item of data that is published.
+
+8. ##Reviewable
+    Every public or private body releasing data should designate a person to respond to questions and complaints about the data, and this person's contact information should be included with the data.
+
+9. ##Discoverable
+    Data must be able to be found by those who are looking for it; it must be included in appropriate data catalogues, and data websites should be accessible to search engines.
+    - Ideally, all government agencies should adopt a unified means for displaying their data online, so that users can rapidly locate the data produced by any agency from its website.
+    - Agencies should ensure that the listings at government data portal websites are accurate and up-to-date.
+    - Agencies should generate comprehensive sitemaps and submit them to all major search engines.
+
+10. ##Permanent
+    As data ages, it should be archived in ways that satisfy the above criteria.
+
+These guidelines were adapted from guidelines published by the Sunlight Foundation, Access-Info Europe, OpenGovData.org, and others. This document and its contents are Creative-Commons licensed and may be freely reused, modified, and redistributed. Any omissions from or additions to the text of these guidelines should be attributed to their authors and not Transparency International Georgia or Transparency International.
+
+
