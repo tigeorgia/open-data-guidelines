@@ -17,7 +17,7 @@ Open data is:
     - Data may not always be in a usable form when it is collected (e.g. sensor data). In these cases, post-collection processing may be performed. This processing, however, should result in data in a format that reflects the full capabilities and granularity of the original collection mechanism. Data should never be lost.
 
 3. ##Timely
-    ata is made available as rapidly as possible in order to maximize its value to the public.
+    Data is made available as rapidly as possible in order to maximize its value to the public.
     - There is no time period that is appropriate for all types of data, but in many cases, a well-designed system will enable data to be published in real-time, or nearly so. Thus, information should be published as soon as possible.
     - Updates should be easy to locate from within the larger data set, through mechanisms such as RSS feeds, search functions that can filter by date, and archives which contain snapshots of the data set taken at regular intervals. A successful site will probably use some combination of these techniques.
 
