@@ -43,7 +43,7 @@ Open data is:
     - Simple formats and formats supported by numerous programs should be preferred. For example, formats such as XML and JSON should be preferred over formats such as PDF or OOXML (OOXML is commonly known as the MS Office .docx, .pptx, and .xlsx formats).
 
 7. ##Freely usable
-    Intellectual property protections, such as copyright or trademark, are not used to restrict potential users or uses of the data.
+    Intellectual property protections, such as copyright or trademark, are not used to restrict potential users or uses of the data, and this should be easily verifiable.
     - Data should be made free for all types of use, including commercial use, without restriction.
     - Even if the law is clear that public government data may be used freely, a notice to this effect should be included with every item of data that is published.
 
